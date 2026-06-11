@@ -9,8 +9,8 @@ if str(PROJECT_ROOT) not in sys.path:
 
 import streamlit as st
 
-from src.ui.streamlit.state import init_state, records_to_df, require_context
-from src.ui.streamlit.visualizaciones import plot_metric_bar
+from Frontend.state import init_state, records_to_df, require_context
+from Frontend.visualizaciones import plot_metric_bar
 
 st.set_page_config(page_title="Regresión", layout="wide")
 init_state(st)
