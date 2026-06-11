@@ -1,3 +1,3 @@
-from Backend.schemas.mensajes import MensajeAgente
+from Backend.schemas.mensajes import Mensaje
 
 __all__ = ["MensajeAgente"]
