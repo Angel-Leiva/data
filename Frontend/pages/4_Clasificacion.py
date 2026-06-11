@@ -10,7 +10,7 @@ if str(PROJECT_ROOT) not in sys.path:
 import streamlit as st
 
 from Frontend.state import init_state, records_to_df, require_context
-from Fronted.visualizaciones import plot_confusion_matrix, plot_metric_bar
+from Frontend.visualizaciones import plot_confusion_matrix, plot_metric_bar
 
 st.set_page_config(page_title="Clasificación", layout="wide")
 init_state(st)
