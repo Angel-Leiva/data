@@ -1,3 +1,3 @@
-from src.config.settings import APP_TITLE, EXECUTION_MODES, STREAMLIT_PAGES
+from Backend.config.settings import APP_TITLE, EXECUTION_MODES, STREAMLIT_PAGES
 
 __all__ = ["APP_TITLE", "EXECUTION_MODES", "STREAMLIT_PAGES"]
