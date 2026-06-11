@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from src.eda.eda import EDAEngine, SplitData
-from src.shared.metricas.metricas_supervisado import metricas_clasificacion, metricas_regresion
+from Backend.eda.eda import EDAEngine, SplitData
+from Backend.shared.metricas.metricas_supervisado import metricas_clasificacion, metricas_regresion
 
 
 class SupervisadoBase(EDAEngine):
