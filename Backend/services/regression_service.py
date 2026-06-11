@@ -4,7 +4,7 @@ from typing import Any
 
 import pandas as pd
 
-from src.supervised.regression.Regresion import RegresionModelos
+from Backend.supervised.regression.Regresion import RegresionModelos
 
 
 class RegressionService:
