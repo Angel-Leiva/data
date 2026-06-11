@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-from src.eda.eda import EDAEngine
-from src.shared.metricas.metricas_cluster import metricas_cluster
+from Backend.eda.eda import EDAEngine
+from Backend.shared.metricas.metricas_cluster import metricas_cluster
 
 
 class NoSupervisadoBase(EDAEngine):
