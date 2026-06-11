@@ -10,8 +10,8 @@ if str(PROJECT_ROOT) not in sys.path:
 import pandas as pd
 import streamlit as st
 
-from src.ui.streamlit.state import init_state, require_context
-from src.ui.streamlit.visualizaciones import plot_boxplots, plot_correlation, plot_missing, plot_numeric_histograms
+from Frontend.state import init_state, require_context
+from Frontend.visualizaciones import plot_boxplots, plot_correlation, plot_missing, plot_numeric_histograms
 
 st.set_page_config(page_title="EDA", layout="wide")
 init_state(st)
