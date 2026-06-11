@@ -9,8 +9,8 @@ if str(PROJECT_ROOT) not in sys.path:
 
 import streamlit as st
 
-from src.config.settings import EXECUTION_MODES
-from src.ui.streamlit.state import (
+from Backent.config.settings import EXECUTION_MODES
+from Frontend.state import (
     init_state,
     load_sample,
     read_uploaded_csv,
