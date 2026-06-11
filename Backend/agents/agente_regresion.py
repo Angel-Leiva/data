@@ -2,10 +2,10 @@ from __future__ import annotations
 
 from typing import Any
 
-from src.agents.base import BaseAgent
-from src.schemas.contexto import ContextoMAS
-from src.schemas.mensajes import MensajeAgente
-from src.services.regression_service import RegressionService
+from Backend.agents.base import BaseAgent
+from Backend.schemas.contexto import ContextoMAS
+from Backend.schemas.mensajes import MensajeAgente
+from Backend.services.regression_service import RegressionService
 
 
 class AgenteRegresion(BaseAgent):
