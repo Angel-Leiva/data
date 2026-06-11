@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from src.schemas.contexto import ContextoMAS
+from Backend.schemas.contexto import ContextoMAS
 
 
 class ExecutiveReportService:
