@@ -1,3 +1,3 @@
-from src.pipelines.mas_pipeline import MASPipeline
+from Backend.pipelines.mas_pipeline import MASPipeline
 
 __all__ = ["MASPipeline"]
