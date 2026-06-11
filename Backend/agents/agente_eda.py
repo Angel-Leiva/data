@@ -2,10 +2,10 @@ from __future__ import annotations
 
 from typing import Any
 
-from src.agents.base import BaseAgent
-from src.schemas.contexto import ContextoMAS
-from src.schemas.mensajes import MensajeAgente
-from src.services.eda_service import EDAService
+from Backend.agents.base import BaseAgent
+from Backend.schemas import contexto
+from Backend.schemas import mensajes
+from Backend.services.eda_service import EDAService
 
 
 class AgenteEDA(BaseAgent):
