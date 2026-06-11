@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-from src.agents.coordinador import AgenteCoordinadorMAS
-from src.shared.pipelines.experimentos import MotorExperimentos
+from Backend.agents.coordinador import AgenteCoordinadorMAS
+from Backend.shared.pipelines.experimentos import MotorExperimentos
 
 
 class AppController:
