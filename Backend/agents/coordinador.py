@@ -9,8 +9,8 @@ from Backend.agents.agente_clustering import AgenteClustering
 from Backend.agents.agente_eda import AgenteEDA
 from Backend.agents.agente_regresion import AgenteRegresion
 from Backend.reports.executive_report import ExecutiveReportService
-from Backend.schemas.contexto import contexto
-from Backend.schemas.mensajes import mensajes
+from Backend.schemas import contexto
+from Backend.schemas import mensajes
 from Backend.services.target_service import TargetService
 
 
