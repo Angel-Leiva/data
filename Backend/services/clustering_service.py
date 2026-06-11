@@ -4,7 +4,7 @@ from typing import Any
 
 import pandas as pd
 
-from src.shared.pipelines.experimentos import MotorExperimentos
+from Backend.shared.pipelines.experimentos import MotorExperimentos
 
 
 class ClusteringService:
