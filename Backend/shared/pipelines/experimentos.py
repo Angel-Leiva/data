@@ -3,10 +3,10 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from src.unsupervised.clustering.Cluster import ClusterModelos
-from src.unsupervised.pca.reduccion import ReduccionDimensional
-from src.supervised.classification.Clasificacion import ClasificacionModelos
-from src.supervised.regression.Regresion import RegresionModelos
+from Backend.unsupervised.clustering.Cluster import ClusterModelos
+from Backend.unsupervised.pca.reduccion import ReduccionDimensional
+from Backend.supervised.classification.Clasificacion import ClasificacionModelos
+from Backend.supervised.regression.Regresion import RegresionModelos
 
 
 class MotorExperimentos:
