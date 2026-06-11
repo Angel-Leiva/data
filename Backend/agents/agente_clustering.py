@@ -3,8 +3,8 @@ from __future__ import annotations
 from typing import Any
 
 from Backend.agents.base import BaseAgent
-from Backend.schemas import contexto
-from Backend.schemas import mensajes
+from Backend.schemas.contexto import ContextoMAS
+from Backend.schemas.mensajes import MensajeAgente
 from Backend.services.clustering_service import ClusteringService
 
 
