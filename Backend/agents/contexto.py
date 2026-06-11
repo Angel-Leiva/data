@@ -1,3 +1,3 @@
-from Backend.schemas.contexto import ContextoMAS
+from Backend.schemas import contexto
 
 __all__ = ["ContextoMAS"]
