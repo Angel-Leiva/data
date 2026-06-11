@@ -4,14 +4,14 @@ from typing import Any
 
 import pandas as pd
 
-from src.agents.agente_clasificacion import AgenteClasificacion
-from src.agents.agente_clustering import AgenteClustering
-from src.agents.agente_eda import AgenteEDA
-from src.agents.agente_regresion import AgenteRegresion
-from src.reports.executive_report import ExecutiveReportService
-from src.schemas.contexto import ContextoMAS
-from src.schemas.mensajes import MensajeAgente
-from src.services.target_service import TargetService
+from Backend.agents.agente_clasificacion import AgenteClasificacion
+from Backend.agents.agente_clustering import AgenteClustering
+from Backend.agents.agente_eda import AgenteEDA
+from Backend.agents.agente_regresion import AgenteRegresion
+from Backend.reports.executive_report import ExecutiveReportService
+from Backend.schemas.contexto import ContextoMAS
+from Backend.schemas.mensajes import MensajeAgente
+from Backend.services.target_service import TargetService
 
 
 class AgenteCoordinadorMAS:
