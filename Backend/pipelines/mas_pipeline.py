@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-from src.agents.coordinador import AgenteCoordinadorMAS
-from src.schemas.contexto import ContextoMAS
+from Backend.agents.coordinador import AgenteCoordinadorMAS
+from Backend.schemas.contexto import ContextoMAS
 
 
 class MASPipeline:
