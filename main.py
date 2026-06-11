@@ -1,4 +1,4 @@
-from src.ui.streamlit.streamlit_app import run
+from Frondtend.streamlit_app import run
 
 
 if __name__ == "__main__":
