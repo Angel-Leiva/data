@@ -10,9 +10,9 @@ if str(PROJECT_ROOT) not in sys.path:
 import pandas as pd
 import streamlit as st
 
-from src.ui.streamlit.components.alerts import render_alerts
-from src.ui.streamlit.components.downloads import render_report_downloads
-from src.ui.streamlit.state import init_state, require_context
+from Frontend.components.alerts import render_alerts
+from Frontend.components.downloads import render_report_downloads
+from Frontend.state import init_state, require_context
 
 st.set_page_config(page_title="Dashboard Ejecutivo", layout="wide")
 init_state(st)
