@@ -4,7 +4,7 @@ from typing import Any
 
 import pandas as pd
 
-from src.supervised.classification.Clasificacion import ClasificacionModelos
+from Backend.supervised.classification.Clasificacion import ClasificacionModelos
 
 
 class ClassificationService:
