@@ -1,3 +1,3 @@
-from src.schemas.contexto import ContextoMAS
+from Backend.schemas.contexto import ContextoMAS
 
 __all__ = ["ContextoMAS"]
